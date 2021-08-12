@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #040d15;
+}
+
+.one a {
+  position: relative;
+  display: inline-block;
+  padding: 12px 36px;
+  margin: 10px 0;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  background: -webkit-gradient(linear, left top, right top, from(#016c28), to(#55e7fc));
+  background: linear-gradient(90deg, #016c28, #55e7fc);
+}
+
+.one a .a :nth-child(2) {
+  background: -webkit-gradient(linear, left top, right top, from(#755bea), to(#ff72c0));
+  background: linear-gradient(90deg, #755bea, #ff72c0);
+}
+/*# sourceMappingURL=style.css.map */
